@@ -34,7 +34,7 @@ class App extends Component {
   }
 
   render() {
-    return <FruitBasket filters={this.state.filters} selectedFilter={this.state.selectedFilter} fruit={this.state.items} handleChange={this.handleFilterChange}
+    return <FruitBasket filters={this.state.filters} selectedFilter={this.state.selectedFilter} fruit={this.state.items} updateFilterCallback={this.handleFilterChange}
     />;
   }
 }
